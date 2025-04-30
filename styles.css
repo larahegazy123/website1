@@ -1,0 +1,86 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #004d99;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar .logos img {
+    width: 80px;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color:  #004d99;
+    font-size: 2em;
+}
+
+p {
+    color: #101e58;
+    font-size: 1.2em;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(17, 12, 171, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item p {
+    background-color: #004d99;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Hover effect for gallery items */
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
